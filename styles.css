@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b69ea9;
+    color: #333;
+}
+
+header {
+    background-color: rgb(141, 43, 90);
+    color: white;
+    width: 100%;
+    padding: 20px;   
+
+}
+
+.bemvindo {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;    
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li  :hover{
+    background-color: rgb(155, 63, 86);
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#sobre {
+    background-color: #ffe4e1;
+}
+
+#servicos {
+    background-color: #fff0f5;
+}
+
+#profissionais {
+    background-color: #ffe4e1;
+}
+
+#contato {
+    background-color: #fff0f5;
+}
+
+h1, p, h2 {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profissional {
+    margin: 20px 0;
+}
+
+.botao-contato {
+    background-color: #25d366;
+    
+   
+color: white;
+    
+   
+padding: 10px 20px;
+    text-decoration: none;
+    
+   
+border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.botao-contato:hover {
+    
+   
+background-color: #128c7e;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.profissionais-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profissional {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.foto-profissional {
+    width: 150px;
+    padding-top: 20px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+    .profissionais {
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    .profissionais{
+        width: 100%;
+    }
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}
