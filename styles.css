@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #b69ea9;
-    color: #333;
+    background-color: white;
+    color:black;
 }
 
 header {
-    background-color: rgb(141, 43, 90);
+    background-color:black;
     color: white;
     width: 100%;
     padding: 20px;   
@@ -20,8 +20,8 @@ header {
 
 .bemvindo {
     text-align: center;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -73,9 +73,7 @@ h1, p, h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-h2{
-    text-decoration: underline;
-}
+
 
 ul {
     list-style: none;
@@ -142,16 +140,6 @@ footer {
     margin-bottom: 12px;
 }
 
-@media (max-width: 768px) {
-    .profissionais {
-        width: 100%;
-    }
-}
-@media(max-width:480px){
-    .profissionais{
-        width: 100%;
-    }
-}
 .container {
     background-color: #fff;
     padding: 20px;
@@ -180,4 +168,33 @@ footer {
 }
 .form-group button:hover {
     background-color: #218838;
+}
+
+
+@media (max-width: 1200px){
+	main {
+		padding: 30px 20px;
+	}
+
+	.grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 990px){
+	main {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 800px){
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px){
+	.grid {
+	grid-template-columns: 1fr;
+	}
 }
